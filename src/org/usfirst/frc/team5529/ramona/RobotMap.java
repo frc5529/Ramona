@@ -3,7 +3,7 @@ package org.usfirst.frc.team5529.ramona;
 public class RobotMap {
 	/** USB **/
 	public static final int xbx = 0,
-			logitech = 1;
+			ps = 1;
 	/** PWM **/
 	//Drivetrain
 	public static final int mFL = 2,// Green
@@ -14,5 +14,6 @@ public class RobotMap {
     		mL = 4,
     		mR = 5;
 	/** DigitalInput **/
-	public static final int tL = 0;
+	public static final int tL = 0,
+			bL = 1;
 }

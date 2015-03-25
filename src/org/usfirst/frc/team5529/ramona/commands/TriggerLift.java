@@ -18,7 +18,7 @@ public class TriggerLift extends Command {
     }
 
     protected void execute() {
-    	double triggers = Robot.oi.logitech.getRawAxis(XBoxMap.AXIS_RT) - Robot.oi.logitech.getRawAxis(XBoxMap.AXIS_LT);
+    	double triggers = Robot.oi.playstation.getRawAxis(XBoxMap.AXIS_RT) - Robot.oi.playstation.getRawAxis(XBoxMap.AXIS_LT);
     	Robot.forklift.set(triggers);
     }
 
